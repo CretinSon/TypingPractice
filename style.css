@@ -1,0 +1,210 @@
+/* styles.scss */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.dark_menu {
+  box-shadow: 3px 2px 10px #000000;
+}
+
+#warp {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  display: flexbox;
+}
+
+body {
+  
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#top {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(187, 174, 174);
+}
+
+#logo {
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+.shadow_menu {
+  box-shadow: 2px 3px 14px #888888;
+}
+
+#top-menu {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#top-menu:hover {
+  background-color: #000;
+}
+
+.menu_new {
+  display: inline-block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.menu-toggle {
+  display: inline-block;
+}
+
+#about {
+  float: right; /* ให้อยู่ด้านขวา */
+  transform: translateY(0%); /* ปรับตำแหน่งให้พอดี */
+}
+
+#about:hover {
+  background-color: #ff0a0a;
+  padding-bottom: 1px;
+}
+
+#menu_lang {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #000;
+}
+
+#menu_lang:hover {
+  background-color: #c57f7f;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+  margin-left: 0px;
+  font-size: 20px;
+}
+
+#left {
+  float: left;
+  width: 230px;
+  margin: 5px;
+  border: 1px solid #b0bdcc;
+  background-color: #fefefe;
+  border-radius: 3px;
+}
+
+#menu_item {
+  list-style-type:none;
+}
+
+#menu_new {
+  margin: 25px;
+}
+
+/*Time_menu here...*/
+#time_menu {
+  width: 230px;
+  margin: 5px;
+  border: 1px solid #b0bdcc;
+  background-color: #fefefe;
+  border-radius: 3px;
+}
+
+
+.container {
+  
+
+}
+
+
+
+h1 {
+  text-align: center;
+}
+
+textarea {
+  padding-left :150px;
+  padding-right: 150px;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+button {
+  width: 500px;
+  padding: 10px;
+  background-color: #11dc40;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+middle {
+  float: left;
+  width: 728px;
+  margin-left: 23px;
+  margin-right: 28px;
+}
+
+#text {
+  width: 714px;
+  border: 2px solid #b0bdcc;
+  font-size: 28px;
+  margin-bottom: 3px;
+  background-color: #f5fcfc;
+  border-radius: 4px;
+  min-height: 23px;
+  padding: 8px 5px;
+  letter-spacing: 2px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+
+#type {
+  width: 716px;
+  height: 152px;
+  padding: 5px;
+  font-size: 28px;
+  background-color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 4px;
+  overflow: auto;
+  letter-spacing: 2px;
+}
+
+.dir_ltr {
+  direction: ltr;
+}
+
+textarea {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  border: 1px solid #b0bdcc;
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */ 
